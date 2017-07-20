@@ -5,11 +5,11 @@ icon: code
 author:
   name: Victor Rosset
   email: victorrosset@gmail.com
-homepage: https://github.com/tucho235/grav-plugin-social-meta-tags
-demo: https://github.com/tucho235/grav-plugin-social-meta-tags
+homepage: https://github.com/damienwebdev/grav-plugin-social-meta-tags
+demo: https://github.com/damienwebdev/grav-plugin-social-meta-tags
 keywords: grav, plugin, facebook, open graph, twitter cards, google
-bugs: https://github.com/tucho235/grav-plugin-social-meta-tags/issues
-docs: https://github.com/tucho235/grav-plugin-social-meta-tags/blob/develop/README.md
+bugs: hhttps://github.com/damienwebdev/grav-plugin-social-meta-tags/issues
+docs: https://github.com/damienwebdev/grav-plugin-social-meta-tags/blob/develop/README.md
 license: MIT
 
 form:
@@ -20,10 +20,10 @@ form:
           active: 1
           title: Pages
           fields:
-              plugin: 
+              plugin:
                 type: tab
                 title: Plugin
-                fields: 
+                fields:
                   enabled:
                     type: toggle
                     label: PLUGINS.SOCIAL_META_TAGS.PLUGIN_STATUS
@@ -47,7 +47,7 @@ form:
                       1: PLUGINS.SOCIAL_META_TAGS.YES
                       0: PLUGINS.SOCIAL_META_TAGS.NO
                     validate:
-                      type: bool    
+                      type: bool
                   social_pages.pages.twitter.type:
                     type: select
                     size: medium
